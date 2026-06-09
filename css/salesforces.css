@@ -2,11 +2,68 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family:sans-serif ;
 
 }
 
 .bigmac{
-    background-color: #61b810;
+    background-color: #FFFFFF;
     width: 100%;
     height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 2rem; */
+    color: #032D60;
+    font-weight: 750;
+    
 }
+
+.boxx{
+    font-size: larger;
+    /* margin-top:30px ; */
+}
+
+.askaagf{
+    width: 20%;
+    height: 50%;
+    background-color: #F1F1F2;
+    /* border-radius: 70px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding-left: 0.1rem;
+    padding-right: 0.2rem; */
+    /* transition: .2s; */
+    /* margin-top:30px ; */
+     border: 4px solid #9050E9;
+}
+
+
+.askaagf .fa-magnifying-glass{
+    font-size: 1.2rem;
+}
+
+.askaagf input{
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-size: 1.2rem;
+}
+
+.hover:hover{
+    color: #037AC7;
+}
+
+button{
+    background-color: #2E844A;
+    border: 30px;
+    
+}
+/* .biggy{
+    width: 100%;
+    height: 302px;
+
+} */
