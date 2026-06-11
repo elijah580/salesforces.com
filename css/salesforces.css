@@ -1,12 +1,12 @@
-*{ 
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family:sans-serif ;
+    font-family: sans-serif;
 
 }
 
-.bigmac{
+.bigmac {
     background-color: #FFFFFF;
     width: 100%;
     height: 96px;
@@ -16,15 +16,15 @@
     /* gap: 2rem; */
     color: #032D60;
     font-weight: 750;
-    
+
 }
 
-.boxx{
+.boxx {
     font-size: larger;
     /* margin-top:30px ; */
 }
 
-.askaagf{
+.askaagf {
     width: 20%;
     height: 50%;
     background-color: #ffffff;
@@ -36,17 +36,17 @@
     padding-right: 0.2rem; */
     /* transition: .2s; */
     /* margin-top:30px ; */
-     border: 4px solid #9050E9;
-     
+    border: 4px solid #9050E9;
+
 }
 
 
-.askaagf .fa-magnifying-glass{
+.askaagf .fa-magnifying-glass {
     font-size: 1.2rem;
     color: rgb(52, 124, 218);
 }
 
-.askaagf input{
+.askaagf input {
     width: 80%;
     height: 80%;
     border: none;
@@ -55,30 +55,36 @@
     font-size: 1.2rem;
 }
 
-.askaagf input::-webkit-input-placeholder{
+.askaagf input::-webkit-input-placeholder {
     color: #0a4185;
     font-weight: 600;
     font-size: large;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.hover:hover{
+.hover:hover {
     color: #037AC7;
 }
 
-button {
+.bigmac button {
     background-color: #2E844A;
     color: white;
     border: 2px solid white;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+
 }
 
-.underline{
+
+.underline {
     text-decoration: underline;
 }
-.biggy{
+
+.biggy {
     width: 100%;
     height: 302px;
     background-color: #32BDFF;
@@ -86,25 +92,64 @@ button {
     justify-content: space-between;
 }
 
-.biggy2{
-    width: 46px;
-    height: 120px;
+.biggy2 {
+    width: 600px;
+    height: 302px;
+    background-color: #7e61a7;
 }
 
-.bigg3{
-    width: 47px;
-    height: 120px;
+.biggy3 {
+    width: 600px;
+    height: 302px;
+    background-color: #1d9627;
+
 }
 
-#star{
+#star {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 80px;
-    font-weight: 700;
-    color: #032d60;
+    /* font-size: 90px; */
+    font-weight: 600;
     line-height: 0.95;
     letter-spacing: -2px;
 }
 
-#seconndbox{
+.blue {
+    color: #002C6E;
+    font-size: 90px;
+}
+
+.light-blue {
+    color: #022AC0;
+    font-size: 90px;
+}
+
+#secondbox {
+    width: 300px;
+    overflow-wrap: break-word;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 0.95;
+    color: #004A85;
+}
+
+.primary-btn {
+    background-color:#016FC6 ;
+    color:#FFFFFF ;
+    padding: 10px 20px;
+}
+
+.secondary-btn{
+    background-color: #FFFFFF;
+    color: #016FC6 ;
+    padding: 10px 20px;
+}
+
+.biggy3 button{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    gap: 80px;
+    margin-top: 20px;
+    border-radius: 7px;
     
 }
