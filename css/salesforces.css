@@ -9,7 +9,7 @@
 .bigmac {
     background-color: #FFFFFF;
     width: 100%;
-    height: 96px;
+    height: 99px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -19,7 +19,7 @@
     position: fixed;
     z-index: 9999;
     top: 0;
-   
+
 
 }
 
@@ -74,7 +74,7 @@
     background-color: #2E844A;
     color: white;
     border: 2px solid white;
-    padding: 10px 20px;
+    padding: 15px 35px;
     border-radius: 5px;
     cursor: pointer;
     display: flex;
@@ -82,6 +82,12 @@
     justify-content: space-between;
 
 }
+
+button {
+    font-size: 17px;
+    font-weight: 600;
+}
+
 
 
 .underline {
@@ -96,6 +102,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 70px;
 }
 
 .box {
@@ -140,6 +147,7 @@
     border-radius: 5px;
     font-size: larger;
     font-weight: 600;
+    transition: .2s;
 }
 
 button.btn1 {
@@ -153,6 +161,10 @@ button.btn2 {
     border: 1px solid #2593e2;
 }
 
+.button-hover:hover {
+    opacity: 0.8;
+
+}
 
 .blue-box {
     width: 100%;
@@ -226,28 +238,27 @@ button.btn2 {
     font-size: larger;
     font-weight: 600;
     margin-top: 20px;
-     background-color: #061b59de;
+    background-color: #061b59de;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
 }
 
-.btn-box:hover{
+.btn-box button:hover {
     cursor: pointer;
-    color: #00A1E0;
+    background-color: #00a0e015;
+    /* border: 1px solid #00a0e0a8; */
+    box-shadow: 0 0 4px 2px #00a0e0;
 }
 
-.boxx-blue{
+.boxx-blue {
     width: 100%;
-    height: 30rem;
-    background-color:#021D5B ;
-    display: flex;
-    flex-direction: column;
-    /* Stack items vertically */
-    align-items: center;
-    /* Center horizontally */
+    height: 60rem;
+    background-color: #021D5B;
+    text-align: center;
+    margin-top: -50px;
 }
 
-.Welcome{
+.Welcome {
     font-family: sans-serif;
     font-weight: 900;
     font-size: 60px;
@@ -255,11 +266,184 @@ button.btn2 {
     margin-top: 35px;
 }
 
-.Where{
-    font-family:Arial, Helvetica, sans-serif ;
-    font-weight:400 ;
+.Where {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     font-size: 32px;
     color: #00A1E0;
+    margin-top: 6px;
+}
+
+.multi-box {
+    width: 80%;
+    height: 226px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.five-in-one {
+    width: 19%;
+    height: 100%;
+    background-color: #1d35954f;
+    border-radius: 25px;
+    padding: 20px;
+    border: 2px solid #425dcacc;
+    transition: .2s;
+}
+
+
+.slack {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: sans-serif, Arial, ;
+    color: #FFFFFF;
     margin-top: 10px;
 }
 
+.work-flows {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif, Arial, ;
+    color: #FFFFFF;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.purple:hover {
+    background-color: rgba(224, 57, 224, 0.329);
+    cursor: pointer;
+}
+
+.Tableau {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: sans-serif, Arial, ;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.turns {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif, Arial, ;
+    color: #FFFFFF;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.red:hover {
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.Agentforce6 {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: sans-serif, Arial, ;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.build {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif, Arial, ;
+    color: #FFFFFF;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.blue:hover {
+    background-color: rgba(89, 0, 255, 0.623);
+    cursor: pointer;
+
+}
+
+.customer {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif, Arial, ;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.ground {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif, Arial, ;
+    color: #FFFFFF;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.blue-light:hover {
+    background-color: #00a0e0d8;
+    cursor: pointer;
+
+}
+
+.data {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif, Arial, ;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.one {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif, Arial, ;
+    color: #FFFFFF;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+
+.blue-dark:hover {
+    background-color: #0e53bbc9;
+    cursor: pointer;
+
+}
+
+.another-box {
+    width: 67%;
+    height: 10rem;
+    background-color: #6678a3;
+    margin: auto;
+
+}
+
+
+.humans {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif, arial;
+    line-height: 25px;
+    text-align: center;
+    align-content: center;
+    color: #FFFFFF;
+
+}
+
+.exploar {
+    background-color: #00a0e0;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slack-bot {
+    background-color: #FFFFFF;
+    color: #4BC7F5;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
