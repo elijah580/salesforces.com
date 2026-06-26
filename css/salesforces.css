@@ -639,6 +639,137 @@ button.btn2 {
 
 }
 
+
+.Sale {
+    width: 90vw;
+    height: 350px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+
+
+.platform {
+    color: #032D60;
+    font-size: 35px;
+    font-weight: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 450px;
+    margin: 0 auto;
+}
+
+
+
+
+.unified {
+    width: 990px;
+    /* Controls when the text wraps */
+    margin: 30px auto;
+    /* Centers the paragraph */
+    text-align: center;
+    color: #181818;
+    font-size: 20px;
+    font-weight: 400;
+    /* 10 is not a valid font weight for most fonts */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    line-height: 1.6;
+}
+
+
+
+.Product {
+    background-color: #0176D3;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 13vw;
+    height: 59px;
+    margin: auto;
+    margin-bottom: 169px;
+
+}
+
+
+
+.hover-bs:hover {
+    background-color: #002C6E;
+}
+
+
+
+
+
+.big-img {
+    width: 100%;
+    height: 550px;
+    background-color: navajowhite;
+    display: flex;
+    justify-self: center;
+    background-image: url(../img/1-up-rainbow-blue-bg.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.lauch {
+    /* background-color: rosybrown; */
+    width: 90vw;
+    height: 350px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+}
+
+
+.industry {
+    color: #032D60;
+    font-size: 35px;
+    font-weight: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.Designed {
+    width: 760px;
+    /* Controls when the text wraps */
+    margin: 30px auto;
+    /* Centers the paragraph */
+    text-align: center;
+    color: #181818;
+    font-size: 20px;
+    font-weight: 470;
+    /* 10 is not a valid font weight for most fonts */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    line-height: 1.6;
+}
+
+
+
+.muliple-cont.{
+    
+}
+
+
+
 .hide-lg {
     display: none;
 }
