@@ -1026,7 +1026,7 @@ button.btn2 {
     transition: .2s;
 }
 
-.img-highli img:hover {
+.img-highli:hover img {
     scale: 1.2;
     cursor: pointer;
 }
@@ -1068,6 +1068,77 @@ button.btn2 {
     cursor: pointer;
     text-decoration: none;
 }
+
+.Biggie-white {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.firstfooter {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.firstfooter img {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+.icons-p{
+    padding: 6px;
+    background-color:#59575C;
+    color: white;
+    border-radius: 20%;
+    font-size: 20px;
+}
+
+
+.call-us{
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+
+.long-roll {
+    width: 20%;
+    height: 100%;
+
+}
+
+
+.new-force {
+    font-size: 3.2vmin;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+
+.group-set {
+    list-style: none;
+    font-size: 2.4vmin;
+    font-weight: 200;
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* Keeps the list vertical */
+    gap: 15px;
+    justify-content: center;
+    color:#91E5FF;
+
+}
+
 
 
 
